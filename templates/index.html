@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator By Ashutosh kumar</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='app.css') }}">
+</head>
+<body>
+    <h1> <span> QR  Code  Generator </span> By using Python</h1>
+    <form action="/generate_qr" method="post">
+        <label for="data">Enter data or link:</label>
+        <input type="text" id="data" name="data" required>
+        <button type="submit">Generate QR Code</button>
+        
+    </form>
+</body>
+</html>
