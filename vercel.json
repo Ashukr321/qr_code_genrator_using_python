@@ -5,7 +5,7 @@
       "src": "src/*.js",
       "use": "@vercel/python",
       "config": {
-        "runtime": "python3.0"
+        "runtime": "python3.6"
       }
     }
   ],
